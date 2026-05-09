@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color:#111;
     color:white;
@@ -13,4 +14,21 @@ h1{
 p{
     font-size:30px;
     color:lightgray;
+=======
+body{
+    background-color:#111;
+    color:white;
+    text-align:center;
+    font-family:Arial;
+    padding-top:100px;
+}
+
+h1{
+    font-size:60px;
+}
+
+p{
+    font-size:30px;
+    color:lightgray;
+>>>>>>> 70db2da67c68ef68aeb2f2381e8d64126c8ef4e0
 }
