@@ -1,34 +1,75 @@
-<<<<<<< HEAD
-body{
-    background-color:#111;
-    color:white;
-    text-align:center;
-    font-family:Arial;
-    padding-top:100px;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    color: #111827;
 }
 
-h1{
-    font-size:60px;
+header {
+    background: #1d4ed8;
+    color: white;
+    text-align: center;
+    padding: 35px;
 }
 
-p{
-    font-size:30px;
-    color:lightgray;
-=======
-body{
-    background-color:#111;
-    color:white;
-    text-align:center;
-    font-family:Arial;
-    padding-top:100px;
+header h1 {
+    margin: 0;
+    font-size: 45px;
 }
 
-h1{
-    font-size:60px;
+nav {
+    background: #111827;
+    text-align: center;
+    padding: 15px;
 }
 
-p{
-    font-size:30px;
-    color:lightgray;
->>>>>>> 70db2da67c68ef68aeb2f2381e8d64126c8ef4e0
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    background: white;
+    padding: 70px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #2563eb;
+    color: white;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.content {
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
