@@ -72,4 +72,14 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+}section {
+    display: none;
+}
+
+section:target {
+    display: block;
+}
+
+#home {
+    display: block;
 }
